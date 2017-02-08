@@ -12,3 +12,12 @@ function strangeFunction(word, number) { //the function will pass in the array f
 }
 
 // I understand I am probably suppossed to be using a for loop in the solution, but I am still a bit iffy with for loops. I didn't quite understand how it would factor in exactly.
+
+// Pro Mode
+var numberArray = [1, 2, 3, 4];
+console.log(numberFunction(numberArray));
+function numberFunction(number) {
+  number = 16;
+  if(number > numberArray.length)
+  console.warn("Limit Reached");
+}
